@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    height: 200px;
+  }
+  .block1, .block2, .block3{
+    height: 50px;
+    width: 50px;
+    position:absolute;
+  } 
+  .block1{
+    background-color: salmon;
+    left: 40px;
+    top: 40px;
+    z-index: 2;
+  }
+  .block2{
+    background-color: rgb(86, 110, 197);
+    left: 70px;
+    top: 70px;
+    z-index: 1;
+  }
+  .block3{
+    background-color: lightgreen;
+    left: 100px;
+    top: 100px;
+  }

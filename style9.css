@@ -1,0 +1,28 @@
+*{
+    margin: o;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    width: 500px;
+    height: 500px;
+    background-color: aquamarine;
+    position: relative;
+    margin:auto;
+}
+.inner1{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    left: 60px;
+    top: 60px;
+}
+.inner2{
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+}
